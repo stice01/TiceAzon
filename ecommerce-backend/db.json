@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Headphones",
+      "price": 59.99,
+      "image": "/images/headphones.avif",
+      "description": "Comfy Bluetooth headphones.",
+      "category": "Tech"
+    },
+    {
+      "id": "2",
+      "title": "Coffee Maker",
+      "price": 89.5,
+      "image": "/images/coffee.png",
+      "description": "Brews up to 12 cups.",
+      "category": "Decor"
+    },
+    {
+      "id": "3",
+      "title": "Running Shoes",
+      "price": 74,
+      "image": "/images/shoes.webp",
+      "description": "Light shoes for everyday runs.",
+      "category": "Clothes"
+    },
+    {
+      "id": "4",
+      "title": "Backpack",
+      "price": 42.25,
+      "image": "/images/backpack.avif",
+      "description": "Roomy and holds up in the rain.",
+      "category": "School"
+    },
+    {
+      "id": "5",
+      "title": "Desk Lamp",
+      "price": 24.99,
+      "image": "/images/lamp.jpg",
+      "description": "Adjustable desk lamp with a dimmer.",
+      "category": "Decor"
+    },
+    {
+      "id": "6",
+      "title": "Notebook",
+      "price": 8.99,
+      "image": "/images/notebook.avif",
+      "description": "Plain lined notebook. Good paper.",
+      "category": "School"
+    }
+  ],
+  "cart": [
+    {
+      "productId": "3",
+      "title": "Running Shoes",
+      "price": 74,
+      "image": "/images/shoes.webp",
+      "qty": 2,
+      "id": "2CQtQ7AeHJ4"
+    },
+    {
+      "productId": "2",
+      "title": "Coffee Maker",
+      "price": 89.5,
+      "image": "/images/coffee.png",
+      "qty": 1,
+      "id": "fQs3oviB1FU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
